@@ -1,0 +1,9 @@
+{
+  "name": "devops-lab5",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node test.js",
+    "build": "rm -rf dist && mkdir -p dist && cp app.js math.js package.json dist/"
+  }
+}
